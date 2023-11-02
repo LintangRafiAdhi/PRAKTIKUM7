@@ -1,6 +1,10 @@
 # PRAKTIKUM7
 Buat program sederhana dengan input tiga buah bilangan, dari ketiga bilangan
 tersebut tampilkan bilangan terbesarnya. Gunakan statement if.
+
+```Python
+#Masukan Inputan
+
 <P># Meminta input dari pengguna
 <br>a = float(input("Masukkan bilangan pertama: "))
 <br>b = float(input("Masukkan bilangan kedua: "))
@@ -16,6 +20,7 @@ tersebut tampilkan bilangan terbesarnya. Gunakan statement if.
 
 <P># Menampilkan bilangan terbesar
 <br>print("Bilangan terbesar adalah:", bilangan_terbesar)
+```
     
 # Hasil perogram
     
@@ -29,6 +34,10 @@ tersebut tampilkan bilangan terbesarnya. Gunakan statement if.
 
 # latihan 1
 Buat program sederhana dengan input 2 buah bilangan, kemudian tentukan bilangan terbesar dari kedua bilangan tersebut menggunakan statement if.
+
+```Python
+#Masukan Inputan
+
 <P> # Meminta input dari pengguna
 <br>bilangan1 = float(input("Masukkan bilangan pertama: "))
 <br>bilangan2 = float(input("Masukkan bilangan kedua: "))
@@ -41,6 +50,7 @@ Buat program sederhana dengan input 2 buah bilangan, kemudian tentukan bilangan 
 
 <p># Menampilkan bilangan terbesar
 <br>print("Bilangan terbesar adalah:", terbesar)
+```
     
 # Hasil perogram
 
@@ -50,6 +60,10 @@ Buat program sederhana dengan input 2 buah bilangan, kemudian tentukan bilangan 
 Buat program untuk mengurutkan data berdasarkan input sejumlah
 data (minimal 3 variable input atau lebih), kemudian tampilkan
 hasilnya secara berurutan mulai dari data terkecil.
+
+```Python
+#Masukan Inputan
+
 <P># Input data dari pengguna
 <br>data = []
 <br>n = int(input("Masukkan jumlah data yang ingin diurutkan: "))
@@ -67,6 +81,7 @@ hasilnya secara berurutan mulai dari data terkecil.
 <br>print("Data yang sudah diurutkan:")
 <br>for nilai in data:
    <br> print(nilai)
+```
 
    # Hasil perogram
 
@@ -76,6 +91,10 @@ hasilnya secara berurutan mulai dari data terkecil.
 
    # latihan 1
    Buat program dengan perulangan bertingkat (nested) for yang menghasilkan output sebagai berikut
+
+```Python
+#Masukan Inputan
+
   <P> 1.pendeklarasian variable
  <br>  baris = 10
 <br>kolom = baris
@@ -87,6 +106,7 @@ hasilnya secara berurutan mulai dari data terkecil.
        <br> agar tidak membuat garis baru menggunakan end=' ' (baris)
       <br>  print("{0:>5}".format(tab), end='')
    <br> print()
+```
 
    # Hasil perogram
 
@@ -94,7 +114,11 @@ hasilnya secara berurutan mulai dari data terkecil.
 
    # latihan 2
    Tampilkan n bilangan acak yang lebih kecil dari 0.5. nilai n diisi pada saat runtime anda bisa menggunakan kombinasi while dan for untuk menyelesaikannya
-  <P> import random
+
+```Python
+#Masukan Inputan
+
+ <P> import random
 
 <br>n = int(input("Masukkan nilai n: "))
 
@@ -106,6 +130,7 @@ hasilnya secara berurutan mulai dari data terkecil.
    <br> if random_num < 0.5:
    <br>     print(random_num)
     <br>    count += 1
+```
 
 # Hasil perogram
 
